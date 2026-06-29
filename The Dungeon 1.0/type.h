@@ -11,8 +11,9 @@ typedef struct{
     int hp,max_hp;
     int potions;
     int gold;
-    int weapon_bonus;
-    int armor;
+    int level;
+    int attack;
+    int xp;
     char name[50];
 }playerstate;
 
